@@ -1,0 +1,345 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+#header-div{
+    width: 100%;
+    background-color:royalblue;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+
+.icons{
+    height: 25px;
+    width: 25px;
+    margin-left: 22px;
+    margin-top: 12px;
+    float: left;
+}
+
+#header-text-div{
+    height: 100%;
+    text-align: center;
+    padding-top: 14px;
+}
+
+#header-ul-div{
+    height: 100%;
+    margin-bottom: 8px;
+}
+
+#header-ul{
+    list-style: none;
+}
+
+.header-li{
+margin-left: 8px;
+background-color: white;
+padding: 12px;
+border: 1px solid black;
+height: 10px;
+color: black;
+padding-top: 5px;
+margin-top: 12px;
+width: 90px;
+display: inline-block;
+text-align: center;
+}
+
+.font-color-white{
+    color: white;
+}
+
+
+#navigation-div{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+#inner-navigation-div{
+    width: 95%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+#home-navigation-div{
+    float: right;
+}
+
+.navigation-bar{
+    list-style: none;
+    padding: 15px;
+    float: left;
+    margin-top: 20px;
+    color: black;
+    margin-right: 5px;
+    }
+
+    .navigation-bar:hover{
+    background-color: royalblue;
+    color: white;
+    border-radius: 15px;
+    }
+
+#image-div{
+    width: 100%;
+}
+
+#marquee-div{
+    width: 95%;
+    margin: 8px auto;
+    background-color: yellowgreen;
+    height: 30px;
+}
+
+#home-text{
+    margin: 50px auto;
+    width: 80%;
+    line-height: 1.5em;
+}
+
+#details-div{
+    width: 100%;
+    background-color:rgb(44, 83, 199);
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-around;
+    align-items: center;   
+    padding-bottom: 50px; 
+    float: left;
+}
+
+#under-detail-div{
+    height: 100%;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.under-inner-detail-div{
+    width: 265px;
+    height: 100%;
+    float: left;
+    margin-left: 20px;
+}
+
+.under-inner-detail-icons{
+    width: 80px;
+    height: 80px;
+    margin-top: 60px;
+    margin-left: 85px;
+}
+
+.under-inner-detail-heading1{
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bolder;
+}
+
+.under-inner-detail-heading3{
+    color: white;
+    text-align: center;
+}
+
+
+.under-inner-detail-heading2{
+    color: greenyellow;
+    text-align: center;
+}
+
+#doing-div{
+    width: 90%;
+    margin: 0 auto;
+    height: auto;    
+}
+
+.doing-div-innner{
+    width: 300px;
+    background-color: white;
+    margin: 15px auto;
+    padding: 5px;
+    height: 180px;
+    float: left;
+    margin-left: 40px;
+    box-shadow: 5px 10px 5px slategrey;
+    text-align: center;
+    color: royalblue;
+}
+
+
+
+#mission-div{
+    width: 100%;
+    float: left;
+    height: auto;
+}
+
+.mission-under-div{
+    border: 1px solid gray;
+    width: 35%;
+    display: inline-flex;
+    height: 25px;
+    padding: 15px;
+    margin-left: 35px;
+    margin-top: 25px;
+    flex-direction: row;
+    color:royalblue;
+    background-color: whitesmoke;
+}
+
+@media screen and (max-width: 700px) {
+
+    #inner-mission2-div{
+    display: none;
+       }
+
+.mission-under-div{
+    width: 250px;
+    
+}
+
+.under-inner-detail-div{
+
+    margin-left: 80px;
+    
+}
+
+}
+
+@media screen and (min-width: 700px){
+    .mission-under-div{
+        width: 250px;
+    }
+    #inner-mission-div{
+        height: auto;
+    }
+}
+
+#inner-mission-div{
+    width: 90%;
+    height: 400px;
+    margin: 80px auto;
+    flex-wrap: wrap;
+     
+}
+
+#inner-mission1-div{
+    width:60% ;
+    height: 300px;
+    float: left;
+}
+
+#inner-mission2-div{
+    width:40% ;
+    height: 250px;
+    float: right;
+}
+
+
+#up-coming-event-marquee-div{
+    width: 85%;
+    height: 66%;
+    margin-top: 6%;
+}
+
+#image-gallery-div{
+  width: 90%;
+  margin: 0 auto;
+}
+
+.image-gallery{
+    height: auto;
+    width: 22%;
+    float: left;
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-bottom: 15px; 
+  }
+
+.image-gallery:hover{
+    opacity: 0.6;
+}
+
+#footer-div{
+    width: 100%;
+    height: 365px;
+    background-color: rgb(56, 51, 51);
+    clear: both;
+    color: rgb(182, 173, 173);
+}
+
+#footer-informations-1{
+    width: 28%;
+    height: 100%;
+    margin-left: 20px;
+    float: left;
+}
+
+#inner-footer-informations-1{
+    width: 100%;
+    height: 75%;
+    margin-top: 20%;
+}
+
+#footer-informations-2{
+    width: 30%;
+    height: 100%;
+    margin-left: 15px;
+    float: left;
+}
+
+#inner-footer-informations-2{
+    width: 100%;
+    height: 75%;
+    margin-top: 20%;  
+}
+
+#footer-informations-3{
+    width: 25%;
+    height: 100%;
+    margin-left: 15px;
+    float: left;
+}
+
+
+#inner-footer-informations-3{
+    width: 100%;
+    height: 75%;
+    margin-top: 20%; 
+}
+
+.footer-icons{
+    height: 30px;
+    width: 30px;
+    float: left;
+    margin-left: 20px;
+    cursor: pointer;
+    padding: 5px;
+}
+
+#copyrights-div{
+    background-color:royalblue;
+    width: 100%;
+    height: 50px;
+    color: white;
+    clear: both;
+}
+
+
